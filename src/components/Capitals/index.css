@@ -1,0 +1,107 @@
+.country-app-container {
+  display: flex;
+  background-color: #93c5fd;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.country-details-container {
+  background-color: #f8fafc;
+  width: 98%;
+  padding: 24px;
+  max-width: 350px;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .country-details-container {
+    padding-left: 67px;
+    padding-right: 67px;
+    padding-top: 45px;
+    max-width: 500px;
+  }
+}
+.heading {
+  color: #1e293b;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+    text-align: left;
+  }
+}
+
+.select-capital-container {
+  display: flex;
+  align-items: center;
+}
+
+.select-country {
+  background-color: #f8fafc;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  border: 2px solid #cbd2d9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .select-country {
+    width: 170px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+.option {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 14px;
+  }
+}
+
+.description {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 15px;
+  }
+}
+
+.para {
+  color: #323f4b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 20px;
+  }
+}
